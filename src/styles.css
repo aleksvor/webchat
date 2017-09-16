@@ -1,0 +1,10 @@
+#header {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#copyleft {
+  display:inline-block;
+  transform: rotate(180deg);
+}
