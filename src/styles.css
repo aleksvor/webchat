@@ -5,6 +5,27 @@
 }
 
 #copyleft {
-  display:inline-block;
-  transform: rotate(180deg);
+    display: inline-block;
+    transform: rotate(180deg);
+}
+
+#chat-area {
+    width: 1000px;
+    height: 500px;
+    border: 5px solid black;
+    margin: 25px;
+    float: left;
+}
+
+#list-of-users {
+    width: 200px;
+    height: 500px;
+    border: 5px solid black;
+    margin: 25px;
+    float: right;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
 }
