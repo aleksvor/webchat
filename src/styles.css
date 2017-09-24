@@ -12,17 +12,28 @@
 #chat-area {
     width: 1000px;
     height: 500px;
-    border: 5px solid black;
-    margin: 25px;
+    border: 2px solid black;
+    margin-right: 25px;
     float: left;
 }
 
 #list-of-users {
     width: 200px;
     height: 500px;
-    border: 5px solid black;
-    margin: 25px;
+    border: 2px solid black;
     float: right;
+}
+
+#message-type {
+    width: 1000px;
+    height: 100px;
+    margin-top: 25px;
+    margin-right: 25px;
+    border: 2px solid black;
+}
+
+#btn-send {
+    width: 200px;
 }
 
 #footer {
