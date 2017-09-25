@@ -1,3 +1,7 @@
+$chat-width: 1000px;
+$std-border: 2px solid green;
+$std-margin: 25px;
+
 #header {
     font-size: 30px;
     font-weight: bold;
@@ -10,26 +14,26 @@
 }
 
 #chat-area {
-    width: 1000px;
+    width: $chat-width;
     height: 500px;
-    border: 2px solid black;
-    margin-right: 25px;
+    border: $std-border;
+    margin-right: $std-margin;
     float: left;
 }
 
 #list-of-users {
     width: 200px;
     height: 500px;
-    border: 2px solid black;
+    border: $std-border;
     float: right;
 }
 
 #message-type {
-    width: 1000px;
+    width: $chat-width;
     height: 100px;
-    margin-top: 25px;
-    margin-right: 25px;
-    border: 2px solid black;
+    margin-top: $std-margin;
+    margin-right: $std-margin;
+    border: $std-border;
 }
 
 #btn-send {
