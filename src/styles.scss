@@ -11,6 +11,7 @@ $std-border: solid green;
 $std-margin: 25px;
 $msg-width: 300px;
 $msg-height: 50px;
+$pos-margin: 5%;
 
 #header {
     font-size: 30px;
@@ -54,7 +55,7 @@ $msg-height: 50px;
 }
 
 #btn-send {
-    width: 200px;
+    max-width: 200px;
     margin-top: $std-margin;
 }
 
@@ -63,22 +64,39 @@ $msg-height: 50px;
     bottom: 0;
 }
 
-.msg-foreign, .msg-own {
-    height: $msg-height;
-    list-style-type: none;
-    width: $msg-width;
-    color: white;
+.msg-box {
+    min-height: $msg-height;
+    width: 100%;
+    display: block;
     margin: 10px;
+    list-style-type: none;
+}
+
+.msg-foreign, .msg-own {
+    min-height: $msg-height;
+    width: 50%;
+    color: white;
+    padding: 10px;
 }
 
 .msg-foreign {
     text-align: left;
+    left: $pos-margin;
+    position: absolute;
     background-color: rgb(0,127,127);
 }
 
 .msg-own {
     position: absolute;
-    right: 0;
+    right: $pos-margin;
     text-align: right;
     background-color: blue;
+}
+
+.username {
+    max-height: 16px;
+    margin: $std-margin;
+    width: 100%;
+    display: block;
+    list-style-type: none;
 }
