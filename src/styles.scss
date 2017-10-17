@@ -111,6 +111,14 @@ $pos-margin: 5%;
     margin: $std-margin;
 }
 
+#btn-ok, #btn-register {
+    margin-bottom: 1%;
+}
+
 #btn-ok {
-    margin-left: 60%;
+    margin-left: 40%;
+}
+
+#btn-register {
+    margin-left: 10%;
 }
