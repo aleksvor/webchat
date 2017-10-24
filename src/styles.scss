@@ -32,6 +32,7 @@ $pos-margin: 5%;
     margin-right: $std-margin;
     float: left;
     position: relative;
+    overflow: auto;
 }
 
 #list-of-users {
