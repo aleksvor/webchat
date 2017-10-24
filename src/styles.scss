@@ -41,6 +41,7 @@ $pos-margin: 5%;
     height: $chat-height;
     border: $std-border;
     float: right;
+    overflow: auto;
 }
 
 #message-type {
@@ -97,7 +98,7 @@ $pos-margin: 5%;
 .username {
     max-height: 16px;
     margin: $std-margin;
-    width: 100%;
+    width: 75%;
     display: block;
     list-style-type: none;
 }
