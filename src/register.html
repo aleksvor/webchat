@@ -21,18 +21,12 @@
         <div class="container-fluid">
             <div class="row justify-content-center">
                 <div id="auth-box">
-                    <div>
-                        Nickname<input class="auth-input" id="nick-input"></input>
-                    </div>
-                    <div>
-                        Password<input class="auth-input" id="pass-input"></input>
-                    </div>
-                    <div>
-                        Repeat password<input class="auth-input" id="pass-repeat-input"></input>
-                    </div>
-                    <div>
-                        <button type="button" class="btn-primary" id="btn-ok">OK</button>
-                    </div>
+                    <form action="reg.php" method="post">
+                        <p>Nickname <input type="text" name="nickname" class="auth-input" id="nick-input"/></p>
+                        <p>Password <input type="password" name="password" class="auth-input" id="pass-input"/></p>
+                        <p>Repeat password <input type="password" name="repeat-password" class="auth-input" id="pass-repeat-input"/></p>
+                        <p><input type="submit" class="btn btn-primary" id="btn-ok"/></p>
+                    </form>
                 </div>
             </div>
         </div>
